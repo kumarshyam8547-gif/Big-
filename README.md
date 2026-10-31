@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+OUT</button>
+
+  <h3>वर्चुअल पॉइंट्स: <span id="score">1000</span></h3>
+
+</div>
+
+<script><!DOCTYPE html>
 <html lang="hi">
 <head>
 <meta charset="UTF-8">
@@ -66,13 +72,7 @@ button {
 
   <button onclick="startGame()">START</button>
 
-  <button onclick="cashOut()">CASH OUT</button>
-
-  <h3>वर्चुअल पॉइंट्स: <span id="score">1000</span></h3>
-
-</div>
-
-<script>
+  <button onclick="cashOut()">CASH 
 let multiplier = 1;
 let score = 1000;
 let running = false;
